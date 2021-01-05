@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="" />
+    <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609843878806</updated>
       <workItem from="1609843900436" duration="2097000" />
+      <workItem from="1609848875876" duration="737000" />
     </task>
     <servers />
   </component>
@@ -100,6 +103,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
