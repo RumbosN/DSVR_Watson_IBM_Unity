@@ -7,23 +7,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using IBM.Cloud.SDK;
+using UnityEngine.UI;
 
 public class ExampleLanguageTranslatorV3 : MonoBehaviour
 {
     #region PLEASE SET THESE VARIABLES IN THE INSPECTOR
+    
     [Space(10)]
     [Tooltip("The IAM apikey.")]
     [SerializeField]
     private string iamApikey;
+    
     [Tooltip("The service URL (optional). This defaults to \"https://api.us-south.language-translator.watson.cloud.ibm.com\"")]
     [SerializeField]
     private string serviceUrl;
+    
     [Tooltip("The version date with which you would like to use the service in the form YYYY-MM-DD.")]
     [SerializeField]
     private string versionDate;
+    
     #endregion
 
+    public Text textView;
     private LanguageTranslatorService service;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +60,7 @@ public class ExampleLanguageTranslatorV3 : MonoBehaviour
         }
 
         Log.Debug("LanguageTranslatorServiceV3", "ListModels result");
+        Translate(new List<string>() {"hola", "como", "estas"});
     }
 
     private IEnumerator ExampleListModels()
@@ -64,11 +72,28 @@ public class ExampleLanguageTranslatorV3 : MonoBehaviour
                 Log.Debug("LanguageTranslatorServiceV3", "ListModels result: {0}", response.Response);
                 listModelsResponse = response.Result;
             },
-            source: "en",
-            target: "fr"
+            source: "es",
+            target: "en"
         );
 
         while (listModelsResponse == null)
             yield return null;
+    }
+
+    private void Translate(List<string> text)
+    {
+        service.Translate(
+            callback: CallbackTranslate,
+            text: text,
+            source: "es",
+            target: "en"
+        );
+    }
+
+    private void CallbackTranslate(DetailedResponse<TranslationResult> response, IBMError error)
+    {
+        Log.Debug("Hello HEAR", "Hello HEAR");
+        Log.Debug("LanguageTranslatorServiceV3", "ListModels result: {0}", response.Response);
+        textView.text = response.Response;
     }
 }

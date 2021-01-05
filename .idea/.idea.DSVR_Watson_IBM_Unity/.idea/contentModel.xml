@@ -5,6 +5,7 @@
     <e p="C:\Users\nmrca\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_DSVR_Watson_IBM_Unity.1510531412.00" t="ExcludeRecursive" />
     <e p="C:\Users\nmrca\OneDrive\Documents\Master\Clases\Desarrollo de Soluciones RV\Project\DSVR_Watson_IBM_Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
@@ -839,6 +840,7 @@
             <e p="WatsonUnitySDK.asmdef" t="Include" />
           </e>
         </e>
+        <e p="TranslateDemo.cs" t="Include" />
       </e>
       <e p="DSVR_Watson_IBM_Unity.sln" t="IncludeFlat" />
       <e p="IBM.Cloud.SDK.csproj" t="IncludeRecursive" />

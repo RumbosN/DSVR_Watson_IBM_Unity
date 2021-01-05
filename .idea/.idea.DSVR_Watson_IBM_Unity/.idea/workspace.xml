@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +36,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TranslateDemo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/TranslateDemo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1meAqmG1BAWCfuIM12ba7TcuPHu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -45,6 +65,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -65,10 +86,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19620">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="19620" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -84,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609843878806</updated>
       <workItem from="1609843900436" duration="2097000" />
-      <workItem from="1609848875876" duration="737000" />
+      <workItem from="1609848875876" duration="5044000" />
     </task>
     <servers />
   </component>
@@ -107,5 +128,99 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1609856889284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889284" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1609856889284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889284" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1609856889283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889283" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1609856889284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609856889284" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1609852027851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609852027851" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs</url>
+          <line>94</line>
+          <properties documentPath="C:\Users\nmrca\OneDrive\Documents\Master\Clases\Desarrollo de Soluciones RV\Project\DSVR_Watson_IBM_Unity\Assets\Plugins\Watson\Examples\ExampleLanguageTranslatorV3.cs" initialLine="94">
+            <startOffsets>
+              <option value="2836" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2874" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="response.Result.Translations" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
