@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AssistantWithText.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="GitHub" t="Include">
             <e p="Editor" t="Include">
@@ -840,18 +841,24 @@
             <e p="WatsonUnitySDK.asmdef" t="Include" />
           </e>
         </e>
+        <e p="RestaurantAssistant.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AssistantInputController.cs" t="Include" />
           <e p="InputFieldController.cs" t="Include" />
+          <e p="SpeechToText.cs" t="Include" />
           <e p="TextToSpeech.cs" t="Include" />
           <e p="TextToSpeechInputController.cs" t="Include" />
           <e p="Utils" t="Include">
             <e p="EIBMVoices.cs" t="Include" />
             <e p="EProcessingStatus.cs" t="Include" />
+            <e p="ERecognitionModes.cs" t="Include" />
+            <e p="FoodConstants.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
           <e p="WatsonAssistant.cs" t="Include" />
         </e>
+        <e p="SpeechToTextLabel.cs" t="Include" />
+        <e p="SpeechToTextRestaurant.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">

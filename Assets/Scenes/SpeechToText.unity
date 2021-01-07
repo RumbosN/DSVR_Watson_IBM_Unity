@@ -248,13 +248,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 209768807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ebd4be7cd12db140bb1dea6a887bbaa, type: 3}
+  m_Script: {fileID: 11500000, guid: e0d3542dc92ba424e87908023862f6ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   OutputText: {fileID: 1732658595}
-  _serviceUrl: 
-  _iamApikey: 
-  _recognizeModel: en-GB_BroadbandModel
+  listText: []
+  _serviceUrl: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/44258e16-9edc-438e-bbae-d7abf6fc3f39
+  _iamApikey: SnaLkQbK88JHGI4GABE4o0s1rQ4zIbyR-cdcVH2mf25D
+  _recognizeModel: 0
 --- !u!4 &209768809
 Transform:
   m_ObjectHideFlags: 0

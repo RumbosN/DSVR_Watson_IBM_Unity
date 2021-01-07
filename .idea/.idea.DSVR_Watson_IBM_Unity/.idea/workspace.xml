@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/ERecognitionModes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/ERecognitionModes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/FoodConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/FoodConstants.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AssistantWithText.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AssistantWithText.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpeechToText.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpeechToText.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AssistantInputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AssistantInputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpeechToText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpeechToText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextToSpeechInputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextToSpeechInputController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WatsonAssistant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WatsonAssistant.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +43,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AssistantInputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechToTextLabel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AssistantWithText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RestaurantAssistant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpeechToTextRestaurant.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,8 +62,17 @@
         <option value="$PROJECT_DIR$/Assets/TextToSpeechInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputFieldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EProcessingStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/ERecognitionModes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpeechToText.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpeechToTextLabel.cs" />
+        <option value="$PROJECT_DIR$/Assets/AssistantWithText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AssistantInputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextToSpeechInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WatsonAssistant.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpeechToTextRestaurant.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EFood.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/FoodConstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/RestaurantAssistant.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +135,7 @@
       <workItem from="1609843900436" duration="2097000" />
       <workItem from="1609848875876" duration="10602000" />
       <workItem from="1610016483500" duration="4189000" />
-      <workItem from="1610039784858" duration="4790000" />
+      <workItem from="1610039784858" duration="9678000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using IBM.Cloud.SDK;
 using IBM.Cloud.SDK.Authentication.Iam;
 using IBM.Cloud.SDK.Utilities;
@@ -9,7 +8,7 @@ using IBM.Watson.Assistant.V2.Model;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WatsonAssistant : Singleton<WatsonAssistant>
+public abstract class WatsonAssistant : MonoBehaviour
 {
     public Text targetResponse;
     
@@ -23,7 +22,6 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
     private EProcessingStatus _assistantStatus;
     private bool _createSessionTested = false;
     private string _sessionId;
-    private TextToSpeech _textToSpeech;
 
     
     void Start()
@@ -31,7 +29,6 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateAuthenticateServices());
         _assistantStatus = EProcessingStatus.Idle;
-        _textToSpeech = TextToSpeech.instance;
     }
 
     private IEnumerator CreateAuthenticateServices()
@@ -128,9 +125,5 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
         _assistantStatus = EProcessingStatus.Processed;
     }
 
-    protected void SendResponse(string text)
-    {
-        targetResponse.text = text;
-        _textToSpeech.AddTextToQueue(text);
-    }
+    protected abstract void SendResponse(string text);
 }

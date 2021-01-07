@@ -9,12 +9,11 @@ using IBM.Cloud.SDK.Authentication.Iam;
 using IBM.Cloud.SDK.Utilities;
 using IBM.Cloud.SDK.DataTypes;
 
-public class SpeechToText : MonoBehaviour
+public abstract class SpeechToText : MonoBehaviour
 {
     public Text OutputText;
 
     public List<string> listText; 
-    public List<string> listWords;
 
     [Header("Service URL (optional)")]
     [SerializeField]
@@ -26,7 +25,7 @@ public class SpeechToText : MonoBehaviour
 
     [Header("Model")]
     [SerializeField]
-    private string _recognizeModel;
+    private ERecognitionModes _recognizeModel;
 
     private SpeechToTextService _service;
 
@@ -40,7 +39,6 @@ public class SpeechToText : MonoBehaviour
     void Start()
     {
         listText = new List<string>();
-        listWords = new List<string>();
 
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateService());
@@ -77,7 +75,7 @@ public class SpeechToText : MonoBehaviour
         {
             if (value && !_service.IsListening)
             {
-                _service.RecognizeModel = (string.IsNullOrEmpty(_recognizeModel) ? "en-US_BroadbandModel" : _recognizeModel);
+                _service.RecognizeModel = $"en-{_recognizeModel.ToString()}";
                 _service.DetectSilence = true;
                 _service.EnableWordConfidence = true;
                 _service.EnableTimestamps = true;
@@ -120,7 +118,7 @@ public class SpeechToText : MonoBehaviour
 
                     if(res.final)
                     {
-                        OutputText.text = text;
+                        SendResponse(text);
 
                         //Add the whole text to the list
                         listText.Add(text);
@@ -204,4 +202,6 @@ public class SpeechToText : MonoBehaviour
         }
         yield break;
     }
+
+    protected abstract void SendResponse(string text);
 }

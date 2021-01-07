@@ -1,20 +1,24 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using IBM.Cloud.SDK.Utilities;
+﻿using IBM.Cloud.SDK.Utilities;
 using UnityEngine;
 
 public class AssistantInputController : InputFieldController
 {
-    private WatsonAssistant _watsonAssistant;
+    private AssistantWithText _watsonAssistant;
     
     private void Awake()
     {
-        _watsonAssistant = WatsonAssistant.instance;
+        _watsonAssistant = FindObjectOfType<AssistantWithText>();
     }
 
     protected override void SendMessage(string text)
     {
-        Runnable.Run(_watsonAssistant.ProcessChat(text));
+        if (_watsonAssistant != null)
+        {
+            Runnable.Run(_watsonAssistant.ProcessChat(text));
+        }
+        else
+        {
+            Debug.LogError("AssistantInputController: _watsonAssistant is null");
+        }
     }
 }
