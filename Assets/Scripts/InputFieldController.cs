@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class InputFieldController : MonoBehaviour
+public abstract class InputFieldController : MonoBehaviour
 {
     private InputField _textInput;
     
@@ -20,7 +20,7 @@ public class InputFieldController : MonoBehaviour
         // Check if this gameObject is selected and if the Return key is pressed
         if (EventSystem.current.currentSelectedGameObject == gameObject && Input.GetKeyDown(KeyCode.Return))
         {
-            TextToSpeech.instance.AddTextToQueue(_textInput.text);
+            SendMessage(_textInput.text);
             _textInput.text = string.Empty;
 
             // Keep the current gameObject selected
@@ -28,4 +28,6 @@ public class InputFieldController : MonoBehaviour
             _textInput.Select();
         }
     }
+
+    protected abstract void SendMessage(string text);
 }
