@@ -124,17 +124,6 @@ public class SpeechToText : MonoBehaviour
 
                         //Add the whole text to the list
                         listText.Add(text);
-
-                        //Add the words to the list
-                        string[] words = text.Split(' ');
-
-                        foreach (string word in words)
-                        {
-                            if (word != "\n")
-                            {
-                                listWords.Add(word);
-                            }
-                        }
                     }
                 }
             }
@@ -214,21 +203,5 @@ public class SpeechToText : MonoBehaviour
             }
         }
         yield break;
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            foreach(string text in listText)
-            {
-                Debug.Log(text);
-            }
-
-            foreach (string word in listWords)
-            {
-                Debug.Log(word);
-            }
-        }
     }
 }
