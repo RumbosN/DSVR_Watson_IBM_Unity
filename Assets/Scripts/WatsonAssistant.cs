@@ -23,6 +23,7 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
     private EProcessingStatus _assistantStatus;
     private bool _createSessionTested = false;
     private string _sessionId;
+    private TextToSpeech _textToSpeech;
 
     
     void Start()
@@ -30,6 +31,7 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
         LogSystem.InstallDefaultReactors();
         Runnable.Run(CreateAuthenticateServices());
         _assistantStatus = EProcessingStatus.Idle;
+        _textToSpeech = TextToSpeech.instance;
     }
 
     private IEnumerator CreateAuthenticateServices()
@@ -65,18 +67,32 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
         Log.Debug("SimpleBot.OnCreateSession()", "Session: {0}", response.Result.SessionId);
         _sessionId = response.Result.SessionId;
         _createSessionTested = true;
+        Runnable.Run(ProcessChat(null, true));
     }
 
-    public IEnumerator ProcessChat(string chatInput)
+    public IEnumerator ProcessChat(string chatInput, bool welcome = false)
     {
         Debug.Log($"Processchat: {chatInput}");
         
         // Set status to show that the chat input is being processed.
         _assistantStatus = EProcessingStatus.Processing;
         
-        if (String.IsNullOrEmpty(chatInput) || _assistantService == null)
+        if ((String.IsNullOrEmpty(chatInput) && !welcome) || _assistantService == null)
         {
             yield return null;
+        }
+
+        MessageInput messageInput = null;
+        if (!welcome)
+        {
+            messageInput = new MessageInput()
+            {
+                Text = chatInput,
+                Options = new MessageInputOptions()
+                {
+                    ReturnContext = true
+                }
+            };
         }
         
         MessageResponse messageResponse = null;
@@ -84,14 +100,7 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
             callback: OnMessage,
             assistantId: assistantId,
             sessionId: _sessionId,
-            input: new MessageInput()
-            {
-                Text = chatInput,
-                Options = new MessageInputOptions()
-                {
-                    ReturnContext = true
-                }
-            }
+            input: messageInput
         );
 
         while (messageResponse == null)
@@ -116,10 +125,12 @@ public class WatsonAssistant : Singleton<WatsonAssistant>
         }
 
         SendResponse(textResponse);
+        _assistantStatus = EProcessingStatus.Processed;
     }
 
     protected void SendResponse(string text)
     {
         targetResponse.text = text;
+        _textToSpeech.AddTextToQueue(text);
     }
 }
