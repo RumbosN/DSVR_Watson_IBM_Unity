@@ -3,19 +3,24 @@ using UnityEngine;
 
 public class RestaurantAssistant : WatsonAssistant
 {
-    private TextToSpeech _textToSpeech;
     public GameObject donut;
     public GameObject hamburger;
     public GameObject hamEgg;
     public GameObject iceCream;
-    
+    public GameObject background;
+
+    private TextToSpeech _textToSpeech;
+    private AudioSource _audioSuccess;
+
     void Awake()
     {
         _textToSpeech = TextToSpeech.instance;
+        _audioSuccess = GetComponent<AudioSource>();
         donut.SetActive(false);
         hamburger.SetActive(false);
         hamEgg.SetActive(false);
         iceCream.SetActive(false);
+        background.SetActive(false);
     }
 
     protected override void SendResponse(string text)
@@ -25,20 +30,27 @@ public class RestaurantAssistant : WatsonAssistant
 
         if (FoodConstants.DONUT.IsMatch(text))
         {
-            donut.SetActive(true);
+            ActiveObject(donut);
         } 
         else if (FoodConstants.HAMBURGER.IsMatch(text))
         {
-            hamburger.SetActive(true);
+            ActiveObject(hamburger);
         }
         else if (FoodConstants.HAM_EGG.IsMatch(text))
         {
-            hamEgg.SetActive(true);
+            ActiveObject(hamEgg);
         }
         else if (FoodConstants.ICE_CREAM.IsMatch(text))
         {
-            iceCream.SetActive(true);
+            ActiveObject(iceCream);
         }
         
+    }
+    
+    private void ActiveObject(GameObject obj)
+    {
+        obj.SetActive(true);
+        background.SetActive(true);
+        _audioSuccess.Play();
     }
 }
