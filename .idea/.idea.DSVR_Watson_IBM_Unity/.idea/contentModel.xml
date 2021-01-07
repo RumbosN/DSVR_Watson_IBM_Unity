@@ -841,14 +841,16 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AssistantInputController.cs" t="Include" />
           <e p="InputFieldController.cs" t="Include" />
           <e p="TextToSpeech.cs" t="Include" />
-          <e p="TranslateDemo.cs" t="Include" />
+          <e p="TextToSpeechInputController.cs" t="Include" />
           <e p="Utils" t="Include">
             <e p="EIBMVoices.cs" t="Include" />
             <e p="EProcessingStatus.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
+          <e p="WatsonAssistant.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

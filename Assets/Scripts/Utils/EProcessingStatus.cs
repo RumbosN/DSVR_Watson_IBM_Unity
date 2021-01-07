@@ -1,5 +1,6 @@
 public enum EProcessingStatus
 { 
     Processing,
-    Idle
+    Idle,
+    Processed
 }
