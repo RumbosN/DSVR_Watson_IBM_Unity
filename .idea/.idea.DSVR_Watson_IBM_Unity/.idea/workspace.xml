@@ -21,11 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TranslateDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TranslateDemo.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,15 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TranslateDemo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/TranslateDemo.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Watson/Examples/ExampleLanguageTranslatorV3.cs" />
+        <option value="$PROJECT_DIR$/Assets/EIBMVoices.cs" />
+        <option value="$PROJECT_DIR$/Assets/ProcessStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/ProcessingStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Utils/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/InputFieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextToSpeech.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EProcessingStatus.cs" />
       </list>
     </option>
   </component>
@@ -86,10 +87,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19620">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19620" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -105,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609843878806</updated>
       <workItem from="1609843900436" duration="2097000" />
-      <workItem from="1609848875876" duration="5044000" />
+      <workItem from="1609848875876" duration="10602000" />
+      <workItem from="1610016483500" duration="1956000" />
     </task>
     <servers />
   </component>
