@@ -253,8 +253,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OutputText: {fileID: 1732658595}
   listText: []
-  _serviceUrl: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/44258e16-9edc-438e-bbae-d7abf6fc3f39
-  _iamApikey: SnaLkQbK88JHGI4GABE4o0s1rQ4zIbyR-cdcVH2mf25D
+  _serviceUrl: 
+  _iamApikey: 
   _recognizeModel: 0
 --- !u!4 &209768809
 Transform:

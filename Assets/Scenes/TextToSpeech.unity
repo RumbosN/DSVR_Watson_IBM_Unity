@@ -784,11 +784,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1871050183741151842, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: apiKey
-      value: 4E_YqIW4Va6wtG1UeDr8zw9YTlnVJOP36kCDtLJojQaK
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1871050183741151842, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: serviceUrl
-      value: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/cfff12d8-e62d-44c3-85c9-4dddc8b823d3
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7378007047465739675, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: m_Name

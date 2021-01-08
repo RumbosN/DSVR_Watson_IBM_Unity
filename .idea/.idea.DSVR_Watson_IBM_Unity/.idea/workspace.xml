@@ -21,71 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d04c8b80-8020-4009-8dd2-8fa5f27c9c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DSVR_Watson_IBM_Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Cake.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Cake.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Donuts.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Donuts.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/HamEgg.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/HamEgg.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Hambuger.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Hambuger.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/IceCream.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/IceCream.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Cake.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Cake.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Donuts.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Donuts.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Hambuger.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Hambuger.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Hamegg.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Hamegg.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Milk.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Milk.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Waffle.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/Waffle.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/icecream.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Materials/icecream.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Milk.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Milk.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Cake.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Donuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Donuts.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Hambuger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Hambuger.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Hamegg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Hamegg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Milk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Milk.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Waffle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/Waffle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/icecream.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Texture/icecream.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Waffle.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/FBX/Waffle.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Cake.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Cake.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Donuts.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Donuts.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/HamEgg.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/HamEgg.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Hambuger.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Hambuger.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/IceCream.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/IceCream.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Milk.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Milk.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Waffle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01_3D/ETC/3D Bakery Object/Prefab/Waffle.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RestaurantAssistant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RestaurantAssistant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Restaurant.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Restaurant.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/InputFieldController.cs" />
         <option value="$PROJECT_DIR$/Assets/TextToSpeech.cs" />
         <option value="$PROJECT_DIR$/Assets/TextToSpeechInputController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputFieldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EProcessingStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/ERecognitionModes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpeechToText.cs" />
@@ -122,10 +57,12 @@
         <option value="$PROJECT_DIR$/Assets/AssistantWithText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AssistantInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextToSpeechInputController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WatsonAssistant.cs" />
         <option value="$PROJECT_DIR$/Assets/SpeechToTextRestaurant.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/EFood.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/FoodConstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputFieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextToSpeech.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WatsonAssistant.cs" />
         <option value="$PROJECT_DIR$/Assets/RestaurantAssistant.cs" />
       </list>
     </option>
@@ -190,6 +127,7 @@
       <workItem from="1609848875876" duration="10602000" />
       <workItem from="1610016483500" duration="4189000" />
       <workItem from="1610039784858" duration="10812000" />
+      <workItem from="1610085429390" duration="4595000" />
     </task>
     <servers />
   </component>

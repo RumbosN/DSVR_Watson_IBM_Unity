@@ -44,7 +44,6 @@ public class RestaurantAssistant : WatsonAssistant
         {
             ActiveObject(iceCream);
         }
-        
     }
     
     private void ActiveObject(GameObject obj)

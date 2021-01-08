@@ -659,8 +659,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OutputText: {fileID: 258372747}
   listText: []
-  _serviceUrl: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/44258e16-9edc-438e-bbae-d7abf6fc3f39
-  _iamApikey: SnaLkQbK88JHGI4GABE4o0s1rQ4zIbyR-cdcVH2mf25D
+  _serviceUrl: 
+  _iamApikey: 
   _recognizeModel: 4
 --- !u!1 &388266469
 GameObject:
@@ -782,9 +782,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetResponse: {fileID: 252501764}
-  apiKey: yb2iy69zhNH3hvMt3GyI-kXfxkck-fn64LERu7cPKAGn
-  serviceUrl: https://api.eu-de.assistant.watson.cloud.ibm.com/instances/ecb12382-9a1c-4516-a3a0-7078cf970706
-  assistantId: b27d1cb7-5d28-481f-80b4-119dacd57972
+  apiKey: 
+  serviceUrl: 
+  assistantId: 
   serviceVersionDate: 2020-04-13
   donut: {fileID: 388266469}
   hamburger: {fileID: 1345913225}
@@ -1321,11 +1321,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1871050183741151842, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: apiKey
-      value: 4E_YqIW4Va6wtG1UeDr8zw9YTlnVJOP36kCDtLJojQaK
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1871050183741151842, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: serviceUrl
-      value: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/cfff12d8-e62d-44c3-85c9-4dddc8b823d3
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7378007047465739675, guid: e5e1834b989c4ab44b58d2211fd3dba3, type: 3}
       propertyPath: m_Name
